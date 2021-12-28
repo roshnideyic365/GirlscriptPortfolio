@@ -1,0 +1,181 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'PT Serif', serif;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.home
+{
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    border: 1px solid red;
+}
+nav
+{
+    background-color: #444444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+}
+ul
+{
+    display: flex;
+    list-style-type: none;
+    width:500px;
+    justify-content: space-around;
+}
+
+/*-----------------------------------------------------*/
+.intro
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 90px;
+}
+h1
+{
+    font-size: 80px;
+}
+p
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+.about-me-button
+{
+    background-color: coral;
+    height: 37px;
+    width: 200px;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.about-me-button:hover
+{
+    background-color: rgb(228, 73, 17);
+    cursor: pointer;
+}
+.logo
+{
+    height: 50px;
+    margin: 1px;
+}
+.socials
+{
+    margin-top: 10px;
+}
+#about-me
+{
+    display: flex;
+    align-items: center;
+    padding: 90px;
+    justify-content: space-around;
+}
+#profile-pic
+{
+    width: 300px;
+    border-radius: 50%;
+}
+h2
+{
+    font-size: 50px;
+}
+.about-me-text
+{
+    width: 50%;
+}
+/*-------------------------------------------------*/
+.projects {
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+.projects  a
+  {
+    text-decoration: none;
+    color: white;
+  }
+  .projects h1
+  {
+      font-weight: bolder;
+      font-size: 300%;
+  }
+.projects .row
+  {
+     padding:1% 4% 1% 4%;
+  }
+  /* Float four columns side by side */
+  .projects  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .projects .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .projects .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .projects  .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .projects.card {
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+    padding: 16px;
+    margin: 5%;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .projects.card_image img
+  {
+      width:100%;
+  }
+  .projects button
+  {
+      border: 1px solid rgba(0, 0, 0, 0.959);
+      background-color: rgba(0, 0, 0, 0.959);
+      padding: 2%;
+      margin: 2%;
+      color: white;
+      border-radius: 5%;
+  }
+/*-------------------------------------------------*/
+footer
+{
+    color: white;
+    padding: 80px;
+    text-align: center;
+    height:400px;
+    background-color: black;
+}
